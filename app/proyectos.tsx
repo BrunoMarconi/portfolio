@@ -31,6 +31,15 @@ const PROJECTS: ProjectData[] = [
     tech: ["TSX", "Framer Motion"],
     image: "/project2.jpg"
   },
+  { 
+    id: "03", 
+    name: "Runtime fit", 
+    url: "https://gym-seven-xi.vercel.app/", 
+    tag: "Gastronomía", 
+    color: "from-orange-500",
+    tech: ["TSX", "Framer Motion"],
+    image: "/project3.jpg"
+  },
 ];
 
 export default function Projects() {
