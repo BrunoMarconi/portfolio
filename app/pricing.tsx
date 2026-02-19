@@ -34,7 +34,7 @@ const Maintenance = () => {
             // Support_Plans
           </h2>
           <h3 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
-            Mantenimiento de alto rendimiento.
+            Mis Especialidades
           </h3>
         </div>
 
@@ -59,10 +59,7 @@ const Maintenance = () => {
                 <h4 className="text-xl font-bold text-white">{plan.name}</h4>
               </div>
 
-              <div className="mb-6">
-                <span className="text-4xl font-bold text-white">€{plan.price}</span>
-                <span className="text-slate-500 text-sm">/mes</span>
-              </div>
+              
 
               <p className="text-slate-400 text-sm mb-8 leading-relaxed">
                 {plan.description}

@@ -12,7 +12,7 @@ export default function Header() {
             <Zap size={18} className="text-white fill-white" />
           </div>
           <span className="text-white font-black tracking-tighter text-xl italic uppercase">
-            Runtime<span className="text-indigo-500">.</span>
+            Bruno Marconi<span className="text-indigo-500">.</span>
           </span>
         </div>
 
