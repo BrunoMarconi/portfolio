@@ -3,24 +3,24 @@ import { Check, Terminal } from 'lucide-react'; // Asumiendo que usas lucide-rea
 
 const plans = [
   {
-    name: "Essential",
-    price: "49,99",
-    description: "Para proyectos que necesitan estabilidad y seguridad.",
-    features: ["Actualización de dependencias", "Backups mensuales", "Soporte vía Ticket", "1h de ajustes UI"],
+    name: "Desarrollo Frontend",
+    price: "Core Stack",
+    description: "Creación de interfaces de usuario altamente interactivas, rápidas y visualmente atractivas.",
+    features: ["Desarrollo con React y Next.js", "Estilado avanzado con Tailwind CSS", "Diseño Responsive", "Optimización de Core Web Vitals."],
     highlight: false
   },
   {
-    name: "Performance",
-    price: "99,99",
-    description: "Optimización continua para productos en crecimiento.",
-    features: ["Todo lo de Essential", "Auditoría Lighthouse", "Prioridad en Bugs", "5h de desarrollo activo"],
-    highlight: true
+    name: "Lógica de Aplicación y API.",
+    price: "Advance Logic",
+    description: "Implementación de la lógica de negocio y conexión eficiente entre el cliente y el servidor.",
+    features: ["Arquitectura de componentes escalables.", "Consumo y gestión de APIs REST.", "Manejo de estados complejos", "Despliegue continuo con CI/CD en Vercel/GitHub."],
+    highlight: false
   },
   {
-    name: "Enterprise",
-    price: "149,99",
-    description: "Tu equipo frontend externo a tiempo completo.",
-    features: ["Todo lo de Performance", "Soporte Slack 24/7", "A/B Testing", "Mantenimiento de Design System"],
+    name: "IA & Automatización",
+    price: "AI Integration",
+    description: "Automatización de procesos y aplicación de modelos de aprendizaje automático para el análisis de datos.",
+    features: ["Scripts de automatización en Python.", "Modelos de Machine Learning", "Procesamiento de datos con Pandas/NumPy.", "Integración de modelos de IA en aplicaciones web."],
     highlight: false
   }
 ];
@@ -82,7 +82,7 @@ const Maintenance = () => {
                   ? 'bg-indigo-500 hover:bg-indigo-400 text-white' 
                   : 'bg-slate-800 hover:bg-slate-700 text-white'
               }`}>
-                Seleccionar Plan
+                Contactar
               </button>
             </div>
           ))}

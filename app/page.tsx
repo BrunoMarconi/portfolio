@@ -13,9 +13,9 @@ export default function Hero() {
           
           <div className="text-left">
             <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tighter mb-6 leading-tight">
-              Sistemas que <br />
+              Desarrollador <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-slate-500">
-                escalan tu negocio.
+                Fullstack & Soluciones Digitales
               </span>
             </h1>
 
